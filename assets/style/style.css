@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use uma fonte moderna */
+    margin: 20px;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos */
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Cor do título */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555; /* Cor do subtítulo */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .content input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1; /* Ocupa o espaço disponível */
+  }
+  
+  .content button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content button:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  #fieldError {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .container {
+    width: 80%; /* Responsivo */
+    max-width: 600px; /* Limita a largura */
+    margin: 0 auto; /* Centraliza o container */
+  }
+  
+  ol, ul {
+    list-style-position: inside; /* Posição do marcador dentro do item */
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  ol li, ul li {
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 500px) {
+    .content {
+      flex-direction: column; /* Empilha os elementos em telas menores */
+      align-items: stretch; /* Estica os elementos para ocupar toda a largura */
+    }
+    .content input[type="text"] {
+      margin-bottom: 10px;
+    }
+  }
+  

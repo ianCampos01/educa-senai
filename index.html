@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 <body>
-    <h1 class = "title">Sua rotina</h1>
+    <h1 class = "title">List of Task</h1>
 
-    <h2>Coloque sua rotina(Os elementos adicionados viraram uma lista)</h2>
+    <h2>Digite abaixo</h2>
 
     <div class="content">
-        <input type="text" id="rotina" name="Ex:Tomo Café">
+        <input type="text" id="rotina" placeholder="Ex:Tomei Café">
         <button id="add">Adicionar</button>
+        <p id="fieldError"></p>
     </div>
 
     <div class="container">
-        <ol class="listOrdened">
+        <ol id="listOrdened">
             
         </ol>   
-
-        <ul class="listNotOrdened">
+        <hr>
+        <ul id="listNotOrdened">
 
         </ul>
     </div>

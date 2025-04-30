@@ -10,7 +10,7 @@
 - Abra o arquivo index.html em seu navegador.
 - Digite sua tarefa no campo de texto e clique em 'Adicionar'. A tarefa será adicionada a ambas as listas.
 - Pressione Enter no campo de texto para adicionar a tarefa rapidamente.
-- Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 - HTML
 - CSS
 - JavaScript

@@ -76,7 +76,7 @@ body {
     margin: 20px 0;
   }
   
-  /* Responsividade */
+ /* Responsividade */
   @media (max-width: 500px) {
     .content {
       flex-direction: column; /* Empilha os elementos em telas menores */
